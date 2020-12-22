@@ -1,5 +1,5 @@
 
-setup: example_env
+setup: py-data-sci.tar.gz
 
 miniconda: Miniconda3-latest-Linux-x86_64.sh
 	sh Miniconda3-latest-Linux-x86_64.sh -b -p ./miniconda	
@@ -8,6 +8,8 @@ miniconda: Miniconda3-latest-Linux-x86_64.sh
 Miniconda3-latest-Linux-x86_64.sh:
 	wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
-example_env: environment.yml miniconda
-	./miniconda/bin/conda env create -f $<
+py-data-sci.tar.gz: environment.yml miniconda
+	-./miniconda/bin/conda env create -f $<
+	./miniconda/bin/conda pack -n py-data-sci
+
 

@@ -4,6 +4,7 @@ setup: example_env
 
 miniconda: Miniconda3-latest-Linux-x86_64.sh
 	sh Miniconda3-latest-Linux-x86_64.sh -b -p ./miniconda
+	export PATH=/home/stachelek/wisc_chtc_examples/example_conda/miniconda:$PATH
 	conda install -c conda-forge conda-pack
 
 Miniconda3-latest-Linux-x86_64.sh:

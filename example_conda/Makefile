@@ -1,4 +1,3 @@
-.PHONY: miniconda
 
 setup: example_env
 

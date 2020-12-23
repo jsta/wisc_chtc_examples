@@ -1,12 +1,14 @@
-## Worked examples and templates Wisconsin CHTC
+## Worked examples and templates for the Wisconsin CHTC
 
 ### Submit file
 
-Every CHTC job has a "submit" file which specifies some boilerplate settings as well as:
+Every CHTC job has a "submit" file which specifies:
 
 1. The path to an `executable` shell script
 
 2. The paths to one or more files (`transfer_input_files`) to transfer to the job server
+
+in addition to some boilerplate settings. 
 
 <details>
 <summary>Submit file template</summary>
@@ -38,4 +40,23 @@ queue 1
 
 ### Executable shell script
 
+Every CHTC job has an executable shell script that optionally sets up job files/environments and runs commands/scripts.
 
+<details>
+<summary>Shell script template</summary>
+
+```
+#!/bin/bash
+
+# setup job files/environments
+tar -xzf jobfiles.tar.gz
+
+# run an R/python/other script
+python jobscript.py
+```
+
+</details>
+
+## Links
+
+https://chtc.cs.wisc.edu/

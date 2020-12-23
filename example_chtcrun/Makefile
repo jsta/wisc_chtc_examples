@@ -1,6 +1,6 @@
 
 submit:
-	condor_submit py-data-sci.sub
+	cd project_name && make submit
 
 check:
 	condor_q

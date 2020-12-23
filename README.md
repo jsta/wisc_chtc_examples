@@ -56,3 +56,5 @@ python jobscript.py
 https://chtc.cs.wisc.edu/
 
 https://github.com/CHTC/chtc-website-source
+
+https://chtc.cs.wisc.edu/file-avail-squid

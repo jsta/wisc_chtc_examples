@@ -51,6 +51,14 @@ python jobscript.py
 
 </details>
 
+### Retrieving output files
+
+> Open the "Terminal" application. Do NOT log into CHTC. Instead, navigate to where you want the files to go on your computer. Then, use this command to copy these files there:
+
+```
+scp username@hostname:/home/username/file ./
+```
+
 ## Links
 
 https://chtc.cs.wisc.edu/

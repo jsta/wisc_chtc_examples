@@ -8,7 +8,9 @@ Every CHTC job has a "submit" file which specifies some boilerplate settings as 
 
 2. The paths to one or more files (`transfer_input_files`) to transfer to the job server
 
-<details><summary>template</summary>
+<details>
+<summary>Submit file template</summary>
+
 ```
 # template.sub
 # starter submit file for CHTC jobs
@@ -31,6 +33,7 @@ request_disk = 1GB
 
 queue 1
 ```
+
 </details>
 
 ### Executable shell script

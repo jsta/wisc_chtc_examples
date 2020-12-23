@@ -1,3 +1,6 @@
+.PHONY: setup submit
+
+all: setup
 
 setup: py-data-sci.tar.gz /squid/stachelek/py-data-sci.tar.gz
 
@@ -17,4 +20,8 @@ py-data-sci.tar.gz: environment.yml miniconda
 /squid/stachelek/py-data-sci.tar.gz:
 	cp py-data-sci.tar.gz /squid/stachelek/
 
+submit:
+	condor_submit py-data-sci.sub
 
+check:
+	condor_q

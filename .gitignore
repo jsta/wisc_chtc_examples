@@ -4,3 +4,5 @@ Miniconda3-latest-Linux-x86_64.sh
 *.err
 *.out
 *.log
+*.bash_history
+*.viminfo

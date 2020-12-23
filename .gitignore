@@ -1,3 +1,6 @@
 miniconda
 Miniconda3-latest-Linux-x86_64.sh
 *.tar.gz
+*.err
+*.out
+*.log

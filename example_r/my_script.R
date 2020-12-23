@@ -1,3 +1,3 @@
 library(poorman)
 
-print(args(poorman::across))
+write.csv(poorman::filter(mtcars, am == 1), "output.csv", row.names = FALSE)

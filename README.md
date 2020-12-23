@@ -2,13 +2,7 @@
 
 ### Submit file
 
-Every CHTC job has a "submit" file which specifies:
-
-1. The path to an `executable` shell script
-
-2. The paths to one or more files (`transfer_input_files`) to transfer to the job server
-
-in addition to some boilerplate settings. 
+Every CHTC job has a "submit" file which specifies 1) The path to an `executable` shell script and 2) the paths to one or more `transfer_input_files` to transfer to the job server.
 
 <details>
 <summary>Submit file template</summary>

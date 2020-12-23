@@ -19,6 +19,7 @@ py-data-sci.tar.gz: environment.yml miniconda
 
 /squid/stachelek/py-data-sci.tar.gz:
 	cp py-data-sci.tar.gz /squid/stachelek/
+	chmod 755 $@
 
 submit:
 	condor_submit py-data-sci.sub

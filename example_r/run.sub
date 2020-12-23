@@ -13,7 +13,7 @@ when_to_transfer_output = ON_EXIT
 transfer_input_files = http://proxy.chtc.wisc.edu/SQUID/chtc/R402.tar.gz, my_script.R
 
 request_cpus = 1
-request_memory = 500MB
-request_disk = 3GB
+request_memory = 200MB
+request_disk = 2GB
 
 queue 1

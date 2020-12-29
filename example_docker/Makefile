@@ -1,5 +1,5 @@
 submit:
-	condor_submit hello-chtc.sub
+	condor_submit docker.sub
 
 check:
 	condor_q

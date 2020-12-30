@@ -59,6 +59,10 @@ python jobscript.py
 scp username@hostname:/home/username/file ./
 ```
 
+## Cheatsheet
+
+Run an interactive job with: `condor_submit -i sub_file`
+
 ## Links
 
 https://chtc.cs.wisc.edu/

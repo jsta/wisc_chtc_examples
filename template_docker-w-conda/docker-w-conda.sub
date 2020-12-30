@@ -16,6 +16,6 @@ transfer_input_files = hello.py
 
 request_cpus = 1
 request_memory = 500MB
-request_disk = 3GB
+request_disk = 4GB
 
 queue 1

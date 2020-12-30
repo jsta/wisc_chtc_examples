@@ -8,3 +8,8 @@ submit:
 
 check:
 	condor_q
+
+clean:
+	-@rm *.err
+	-@rm *.log
+	-@rm *.out

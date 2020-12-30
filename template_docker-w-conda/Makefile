@@ -13,3 +13,4 @@ clean:
 	-@rm *.err
 	-@rm *.log
 	-@rm *.out
+	-@rm *_stderror

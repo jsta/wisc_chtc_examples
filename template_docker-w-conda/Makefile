@@ -4,7 +4,7 @@ dockerimage:
 	docker build .
 
 submit:
-	condor_submit docker.sub
+	condor_submit docker-w-conda.sub
 
 check:
 	condor_q

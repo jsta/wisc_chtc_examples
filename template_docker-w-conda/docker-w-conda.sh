@@ -9,7 +9,7 @@ ENVDIR=$ENVNAME
 
 # these lines handle setting up the environment; you shouldn't have to modify them
 export PATH
-. $ENVDIR/bin/activate
+conda activate $ENVNAME
 
 # modify this line to run your desired Python script and any other work you need to do
 python3 hello.py

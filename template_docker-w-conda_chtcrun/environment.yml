@@ -1,0 +1,8 @@
+name: py-data-sci
+channels:
+ - conda-forge
+ - defaults
+dependencies:
+ - python>3.0.0
+ - pandas
+ 

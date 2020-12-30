@@ -7,9 +7,5 @@ ENVNAME=py-data-sci
 # if you need the environment directory to be named something other than the environment name, change this line
 ENVDIR=$ENVNAME
 
-# these lines handle setting up the environment; you shouldn't have to modify them
-export PATH
-conda activate $ENVNAME
-
 # modify this line to run your desired Python script and any other work you need to do
-python3 hello.py
+conda run -n $ENVNAME python3 hello.py

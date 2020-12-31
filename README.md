@@ -63,6 +63,13 @@ scp username@hostname:/home/username/file ./
 
 Run an interactive job with: `condor_submit -i sub_file`
 
+Transfer files using `scp`: 
+
+```shell
+scp file username@hostname:/home/username
+scp username@hostname:/home/username/file ./
+```
+
 ## Links
 
 https://chtc.cs.wisc.edu/

@@ -14,7 +14,7 @@ Miniconda3-latest-Linux-x86_64.sh:
 
 py-data-sci.tar.gz: environment.yml miniconda
 	export PATH=/home/stachelek/wisc_chtc_examples/example_conda/miniconda/bin:$PATH
-	conda env create -f $<	
+	-conda env create -f $<	
 	conda pack -n py-data-sci
 
 /squid/stachelek/py-data-sci.tar.gz:
@@ -31,4 +31,3 @@ clean:
 	-@rm *.err
 	-@rm *.log
 	-@rm *.out
-	

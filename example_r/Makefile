@@ -4,7 +4,7 @@ build: packages.tar.gz
 packages.tar.gz:
 	condor_submit -i build.sub
 
-run:
+submit:
 	condor_submit run.sub
 
 check:

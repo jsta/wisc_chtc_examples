@@ -58,7 +58,9 @@ Run an interactive job with: `condor_submit -i sub_file`
 [Transfer files using `scp`](https://chtc.cs.wisc.edu/connecting.shtml): 
 
 ```shell
+# push
 scp file username@submit2.chtc.wisc.edu:/home/username
+# pull
 scp username@username@submit2.chtc.wisc.edu:/home/username/file ./
 ```
 

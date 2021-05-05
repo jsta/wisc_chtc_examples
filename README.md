@@ -55,7 +55,7 @@ python jobscript.py
 
 Run an interactive job with: `condor_submit -i sub_file`
 
-Transfer files using `scp`: 
+[Transfer files using `scp`](https://chtc.cs.wisc.edu/connecting.shtml): 
 
 ```shell
 scp file username@hostname:/home/username

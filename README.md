@@ -64,6 +64,12 @@ scp file username@submit2.chtc.wisc.edu:/home/username
 scp username@username@submit2.chtc.wisc.edu:/home/username/file ./
 ```
 
+Remove "held" jobs
+
+```shell
+condor_rm $JOB_ID
+```
+
 ## Links
 
 https://chtc.cs.wisc.edu/

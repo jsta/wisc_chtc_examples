@@ -16,7 +16,7 @@ Miniconda3-latest-Linux-x86_64.sh:
 template_docker-w-conda.tar.gz: environment.yml miniconda
 	export PATH=/home/stachelek/wisc_chtc_examples/template_docker-w-conda/miniconda/bin:$PATH
 	-conda env create -f $<	
-	conda pack -n template_docker-w-conda.tar.gz
+	conda pack -n template_docker-w-conda
 
 /squid/stachelek/template_docker-w-conda.tar.gz:
 	cp template_docker-w-conda.tar.gz /squid/stachelek/

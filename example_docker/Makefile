@@ -1,3 +1,7 @@
+
+docker: Dockerfile
+	docker build -f $< -t jsta/example_docker:latest .
+
 submit:
 	condor_submit docker.sub
 

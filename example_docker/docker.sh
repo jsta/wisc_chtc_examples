@@ -2,4 +2,4 @@
 #
 # docker.sh
 
-Rscript -e "print(dplyr::select(mtcars, cyl)[[1]])"
+Rscript -e "print(dplyr::select(read.csv('data.csv'), anumber)[[1]])"

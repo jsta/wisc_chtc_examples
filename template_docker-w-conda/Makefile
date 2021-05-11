@@ -1,7 +1,7 @@
 
-# `docker login`
-dockerimage:
-	docker build .
+# `docker push template_docker-w-conda:latest`
+docker: Dockerfile
+	docker build -f $< -t jsta/template_docker-w-conda:latest .
 
 submit:
 	condor_submit docker-w-conda.sub

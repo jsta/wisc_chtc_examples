@@ -12,7 +12,7 @@ output = docker-w-conda_$(Cluster)_$(Process).out
 
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
-transfer_input_files = hello.py
+transfer_input_files = hello.py,data.csv
 
 request_cpus = 1
 request_memory = 500MB

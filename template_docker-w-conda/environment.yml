@@ -1,4 +1,4 @@
-name: py-data-sci
+name: template_docker-w-conda
 channels:
  - conda-forge
  - defaults

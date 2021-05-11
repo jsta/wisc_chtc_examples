@@ -6,7 +6,7 @@ set -e
 ENVNAME=template_docker-w-conda
 # if you need the environment directory to be named something other than the environment name, change this line
 ENVDIR=$ENVNAME
-source activate $ENVNAME
+conda activate $ENVNAME
 
 # modify this line to run your desired Python script and any other work you need to do
 python3 hello.py
